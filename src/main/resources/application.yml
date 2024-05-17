@@ -2,16 +2,16 @@
 cloud:
   aws:
     credentials:
-      access-key: 
-      secret-key: 
-    region:
-      static: us-east-2
+      access-key: zBAM362R2tqtgy6leKN5qm7b02HeWG
+      secret-key: XvcJODF4BdFG3jGOeyVNugLuJUPdu6
+    region: 
+      static: us-east-1
     stack:
       auto: false
 
 application:
-  bucket:
-    name: bukectStorageName
+  bucket:  
+    name: test787345
 
 
 spring:

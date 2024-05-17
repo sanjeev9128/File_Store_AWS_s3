@@ -1,0 +1,58 @@
+-----------------Container Management:-----------------
+docker create: Create a new container.
+docker run: Run a command in a new container.
+docker start: Start one or more stopped containers.
+docker stop: Stop one or more running containers.
+docker restart: Restart one or more containers.
+docker pause: Pause all processes within one or more containers.
+docker unpause: Unpause all processes within one or more containers.
+docker kill: Kill one or more running containers.
+docker rm: Remove one or more containers.
+docker container prune: Remove all stopped containers.
+docker update: Update configuration of one or more containers.
+
+---------------------Image Management:------------------
+docker images: List all images on the system.
+docker pull: Pull an image or a repository from a registry.
+docker build: Build an image from a Dockerfile.
+docker tag: Tag an image into a repository.
+docker push: Push an image or a repository to a registry.
+docker rmi: Remove one or more images.
+docker image prune: Remove unused images.
+docker inspect: Display detailed information on one or more images or containers.
+docker history: Show the history of an image.
+
+----------------------Dockerfile and Build:---------------------------
+docker build: Build an image from a Dockerfile.
+docker buildx: Build with BuildKit.
+dockerfile: Dockerfile command for managing Dockerfile.
+docker system df: Show docker disk usage.
+docker system prune: Remove unused data.
+
+------------------------------Network Management:---------------------
+docker network create: Create a new network.
+docker network connect: Connect a container to a network.
+docker network disconnect: Disconnect a container from a network.
+docker network ls: List networks.
+docker network inspect: Display detailed information on one or more networks.
+
+-------------------Volume Management:-------------------
+docker volume create: Create a volume.
+docker volume ls: List volumes.
+docker volume inspect: Display detailed information on one or more volumes.
+docker volume rm: Remove one or more volumes.
+docker volume prune: Remove all unused local volumes.
+
+----------------System Management:------------------------
+docker info: Display system-wide information.
+docker version: Show the Docker version information.
+docker events: Get real-time events from the server.
+docker stats: Display a live stream of container resource usage statistics.
+docker system: Manage Docker.
+docker login: Log in to a Docker registry.
+docker logout: Log out from a Docker registry.
+Docker Swarm (for orchestration):
+docker swarm init: Initialize a swarm.
+docker swarm join: Join a swarm as a worker or manager.
+docker swarm leave: Leave the swarm.
+docker swarm update: Update the swarm.
